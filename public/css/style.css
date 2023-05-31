@@ -1,0 +1,52 @@
+*{
+    font-size: 16px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Pinyon+Script&display=swap');
+
+.container {
+  padding: 0;
+}
+
+:root{
+    --roxo-escuro: #693A8E;
+    --cor-clara: #DDC7EE;
+    --roxo-claro: #AA5BE9;
+    --cinza: #C6C5C7;
+    --preto: #12091A;
+}
+
+header{
+    background-color: var(--roxo-claro);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    font-family:'Pinyon Script', cursive;
+}
+
+img#logo{
+    width: 8%;
+    height: 8%;
+    margin-right: 25%;
+}
+
+body{
+    background-color: var(--cor-clara);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    box-shadow: 2px 10px 15px var(--preto);
+}
+
+img.lado{
+    float: right;
+}
